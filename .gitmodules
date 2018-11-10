@@ -1,0 +1,4 @@
+[submodule "content/themes/creative"]
+	path = content/themes/creative
+	url = https://github.com/zce/creative.git
+	branch = next

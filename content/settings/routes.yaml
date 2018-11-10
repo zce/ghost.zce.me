@@ -1,0 +1,44 @@
+# https://docs.ghost.org/concepts/routing/
+#
+# routes:
+#
+# collections:
+#   /:
+#     permalink: /{slug}/
+#     template:
+#       - index
+#
+# taxonomies:
+#   tag: /tag/{slug}/
+#   author: /author/{slug}/
+#
+# {id} - unique series of characters, e.g. "5982d807bcf38100194efd67"
+# {slug} - value set in the URL field in post settings menu
+# {year} - 4-digit representation of publish date, e.g. "2018"
+# {month} - 2-digit representation of publish date, e.g. "08"
+# {day} - 2-digit representation of publish date, e.g. "14"
+# {primary_tag} - slug of the first tag in the post's tags list
+# {primary_author} - slug of the first author in the post's author list
+
+routes:
+  /home/:
+    data:
+      sections:
+        resource: posts
+        type: browse
+        filter: slug:[welcome,themes]
+    template: entry
+  /about/team/:
+    data: post.team
+    template: post
+
+collections:
+  /:
+    permalink: /{year}/{month}/{slug}/
+  /course/:
+    filter: tag:course
+    permalink: /course/{slug}/
+
+taxonomies:
+  tag: /topic/{slug}/
+  author: /author/{slug}/

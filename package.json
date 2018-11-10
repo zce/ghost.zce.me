@@ -1,0 +1,46 @@
+{
+  "name": "zce.me",
+  "version": "0.1.0",
+  "private": true,
+  "description": "zce.me site",
+  "keywords": [
+    "blog.zce.me",
+    "zce",
+    "zce.me"
+  ],
+  "homepage": "https://github.com/zce/zce.me#readme",
+  "bugs": {
+    "url": "https://github.com/zce/zce.me/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/zce.me.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "zce",
+    "email": "w@zce.me",
+    "url": "https://zce.me"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon --inspect",
+    "start": "cross-env NODE_ENV=production node ."
+  },
+  "dependencies": {
+    "@zce/ghost": "latest",
+    "qiniu-store": "latest"
+  },
+  "devDependencies": {
+    "cross-env": "latest",
+    "nodemon": "latest"
+  },
+  "nodemonConfig": {
+    "ignoreRoot": [ ".git", "content" ],
+    "watch": [
+      "node_modules/@zce/ghost/core",
+      "content/settings/routes.yaml",
+      "index.js"
+    ]
+  }
+}

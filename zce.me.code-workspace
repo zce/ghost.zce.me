@@ -1,0 +1,43 @@
+{
+	"folders": [
+		{
+			"path": "content/themes/creative"
+		},
+		{
+      "name": "bootstrap",
+			"path": "content/themes/creative/node_modules/bootstrap/scss"
+		},
+		// {
+		// 	"path": "content"
+		// },
+		// {
+		// 	"path": "node_modules/@zce/ghost/core/server"
+		// },
+		{
+      "path": "."
+		}
+	],
+	"launch": {
+		"configurations": [
+      {
+        "type": "node",
+        "request": "attach",
+        "name": "Attach to debugger",
+        "port": 9229
+      }
+		],
+		"compounds": []
+	},
+	"extensions": {
+		"recommendations": [
+			"editorconfig.editorconfig"
+		]
+	},
+	"settings": {
+		"workbench.startupEditor": "none",
+		"files.exclude": {
+			"node_modules": true
+		},
+		"explorer.openEditors.visible": 0
+  }
+}
