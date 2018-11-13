@@ -10,9 +10,9 @@
 		// {
 		// 	"path": "content"
 		// },
-		// {
-		// 	"path": "node_modules/@zce/ghost/core/server"
-		// },
+		{
+			"path": "node_modules/@zce/ghost/core/server"
+		},
 		{
       "path": "."
 		}
@@ -22,8 +22,15 @@
       {
         "type": "node",
         "request": "attach",
-        "name": "Attach to debugger",
+        "name": "Attach",
         "port": 9229
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch",
+        "program": "${workspaceFolder:zce.me}/index.js",
+        "cwd": "${workspaceFolder:zce.me}"
       }
 		],
 		"compounds": []
@@ -38,6 +45,7 @@
 		"files.exclude": {
 			"node_modules": true
 		},
-		"explorer.openEditors.visible": 0
+    "explorer.openEditors.visible": 0,
+    "workbench.panel.defaultLocation": "right"
   }
 }
