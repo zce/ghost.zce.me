@@ -40,7 +40,9 @@
     "watch": [
       "node_modules/@zce/ghost/core",
       "content/settings/routes.yaml",
+      "content/themes/creative/locales",
       "index.js"
-    ]
+    ],
+    "ext": "js,json,yaml"
   }
 }

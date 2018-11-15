@@ -9,6 +9,7 @@
       "filename": "content/data/ghost-dev.db"
     }
   },
+  "useMinFiles": true,
   "storage": {
     "active": "qiniu",
     "qiniu": {

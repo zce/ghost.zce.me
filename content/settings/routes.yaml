@@ -21,8 +21,24 @@
 # {primary_author} - slug of the first author in the post's author list
 
 routes:
+  /home/:
+    data:
+      sections:
+        resource: posts
+        type: browse
+        filter: slug:[welcome,themes]
+    template: entry
 
 collections:
+  /podcast/:
+    filter: tag:podcast
+    permalink: /podcast/{slug}/
+  /course/:
+    filter: tag:course
+    permalink: /course/{slug}/
+  /video/:
+    filter: tag:video
+    permalink: /video/{id}/
   /:
     permalink: /{year}/{month}/{slug}/
 
