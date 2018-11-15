@@ -1,18 +1,21 @@
 {
 	"folders": [
+		// {
+		// 	"path": "content/themes/creative/assets/scss"
+		// },
 		{
 			"path": "content/themes/creative"
 		},
-		{
-      "name": "bootstrap",
-			"path": "content/themes/creative/node_modules/bootstrap/scss"
-		},
+		// {
+    //   "name": "bootstrap",
+		// 	"path": "content/themes/creative/node_modules/bootstrap/scss"
+		// },
 		// {
 		// 	"path": "content"
 		// },
-		{
-			"path": "node_modules/@zce/ghost/core/server"
-		},
+		// {
+		// 	"path": "node_modules/@zce/ghost/core/server"
+		// },
 		{
       "path": "."
 		}

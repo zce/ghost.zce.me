@@ -21,23 +21,10 @@
 # {primary_author} - slug of the first author in the post's author list
 
 routes:
-  /home/:
-    data:
-      sections:
-        resource: posts
-        type: browse
-        filter: slug:[welcome,themes]
-    template: entry
-  /about/team/:
-    data: post.team
-    template: post
 
 collections:
   /:
     permalink: /{year}/{month}/{slug}/
-  /course/:
-    filter: tag:course
-    permalink: /course/{slug}/
 
 taxonomies:
   tag: /topic/{slug}/
