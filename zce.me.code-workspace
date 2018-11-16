@@ -13,9 +13,9 @@
 		// {
 		// 	"path": "content"
 		// },
-		// {
-		// 	"path": "node_modules/@zce/ghost/core/server"
-		// },
+		{
+			"path": "node_modules/@zce/ghost/core/server"
+		},
 		{
       "path": "."
 		}
