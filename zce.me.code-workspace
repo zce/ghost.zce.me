@@ -6,10 +6,10 @@
 		{
 			"path": "content/themes/creative"
 		},
-		// {
-    //   "name": "bootstrap",
-		// 	"path": "content/themes/creative/node_modules/bootstrap/scss"
-		// },
+		{
+      "name": "bootstrap",
+			"path": "content/themes/creative/node_modules/bootstrap/scss"
+		},
 		// {
 		// 	"path": "content"
 		// },
@@ -40,7 +40,8 @@
 	},
 	"extensions": {
 		"recommendations": [
-			"editorconfig.editorconfig"
+      "editorconfig.editorconfig",
+      "mrmlnc.vscode-csscomb"
 		]
 	},
 	"settings": {
@@ -48,7 +49,6 @@
 		"files.exclude": {
 			"node_modules": true
 		},
-    "explorer.openEditors.visible": 0,
-    "workbench.panel.defaultLocation": "right"
+		"explorer.openEditors.visible": 0
   }
 }
