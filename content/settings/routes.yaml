@@ -30,15 +30,15 @@ routes:
     template: entry
 
 collections:
-  /podcast/:
-    filter: tag:podcast
-    permalink: /podcast/{slug}/
-  /course/:
-    filter: tag:course
-    permalink: /course/{slug}/
-  /video/:
-    filter: tag:video
-    permalink: /video/{id}/
+  # /podcast/:
+  #   filter: tag:podcast
+  #   permalink: /podcast/{slug}/
+  # /course/:
+  #   filter: tag:course
+  #   permalink: /course/{slug}/
+  # /video/:
+  #   filter: tag:video
+  #   permalink: /video/{id}/
   /:
     permalink: /{year}/{month}/{slug}/
 
