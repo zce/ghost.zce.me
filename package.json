@@ -36,10 +36,9 @@
     "nodemon": "latest"
   },
   "nodemonConfig": {
-    "ignoreRoot": [ ".git", "content" ],
     "watch": [
       "node_modules/@zce/ghost/core",
-      "content/settings/routes.yaml",
+      "content/settings",
       "content/themes/creative/locales",
       "index.js"
     ],

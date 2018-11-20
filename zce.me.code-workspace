@@ -49,6 +49,7 @@
 		"files.exclude": {
 			"node_modules": true
 		},
-		"explorer.openEditors.visible": 0
+    "explorer.openEditors.visible": 0,
+    "terminal.integrated.splitCwd": "workspaceRoot"
   }
 }
