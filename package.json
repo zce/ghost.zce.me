@@ -24,11 +24,13 @@
   },
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon --inspect",
+    "dev": "cross-env NODE_ENV=development nodemon",
+    "dev:inspect": "yarn dev --inspect",
     "start": "cross-env NODE_ENV=production node ."
   },
   "dependencies": {
     "@zce/ghost": "latest",
+    "embed-parser": "^0.1.0",
     "qiniu-store": "latest"
   },
   "devDependencies": {
