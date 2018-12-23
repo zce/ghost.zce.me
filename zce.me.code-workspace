@@ -7,6 +7,9 @@
 			"path": "content/themes/creative"
 		},
 		{
+			"path": "content/themes/mapache"
+		},
+		{
       "name": "bootstrap",
 			"path": "content/themes/creative/node_modules/bootstrap/scss"
 		},
