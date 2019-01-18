@@ -30,7 +30,6 @@
   },
   "dependencies": {
     "@zce/ghost": "latest",
-    "embed-parser": "^0.1.0",
     "qiniu-store": "latest"
   },
   "devDependencies": {
