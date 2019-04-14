@@ -6,8 +6,8 @@
 	path = content/themes/casper
 	url = https://github.com/TryGhost/Casper.git
 
-[submodule "content/themes/official"]
-	path = content/themes/official
+[submodule "content/themes/blog"]
+	path = content/themes/blog
 	url = https://github.com/TryGhost/Blog.git
 
 [submodule "content/themes/starter"]
