@@ -2,7 +2,7 @@ module.exports = ghost => {}
 
 // const path = require('path')
 // const express = require('express')
-// const routing = require('@zce/ghost/core/server/services/routing')
+// const routing = require('ghost/core/server/services/routing')
 // const middleware = require('./middleware')
 
 // const memberRouter = express.Router()

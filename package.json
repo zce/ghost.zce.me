@@ -29,7 +29,7 @@
     "start": "cross-env NODE_ENV=production node ."
   },
   "dependencies": {
-    "@zce/ghost": "latest",
+    "ghost": "latest",
     "qiniu-store": "latest"
   },
   "devDependencies": {
@@ -38,7 +38,7 @@
   },
   "nodemonConfig": {
     "watch": [
-      "node_modules/@zce/ghost/core",
+      "node_modules/ghost/core",
       "content/settings",
       "content/themes/creative/locales",
       "index.js"
