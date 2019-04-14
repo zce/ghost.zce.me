@@ -9,7 +9,6 @@
       "filename": "content/data/ghost-dev.db"
     }
   },
-  "enableDeveloperExperiments": true,
   "storage": {
     "active": "qiniu",
     "qiniu": {
@@ -19,5 +18,6 @@
       "domain": "https://zce-sandbox.uieee.com",
       "format": "${year}/${month}/${name}${ext}"
     }
-  }
+  },
+  "enableDeveloperExperiments": true
 }

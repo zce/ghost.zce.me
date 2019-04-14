@@ -23,6 +23,23 @@ $ yarn start
 $ yarn dev
 ```
 
+## Themes
+
+- https://github.com/TryGhost/Casper
+- https://github.com/TryGhost/Starter
+- https://github.com/TryGhost/London
+- https://github.com/TryGhost/Editorial
+- https://github.com/TryGhost/Massively
+- https://github.com/TryGhost/Blog
+- https://github.com/godofredoninja/Mapache
+- https://github.com/godofredoninja/Paway
+- https://github.com/godofredoninja/simply
+- https://github.com/JustGoodThemes/Scriptor-Ghost-Theme
+- https://github.com/Reedyn/Saga
+- https://github.com/xiaoluoboding/ghost-theme-kaldorei
+- https://github.com/epistrephein/Steam
+- https://github.com/ddiu8081/ghost-theme-Moegi
+
 ## Contributing
 
 1. **Fork** it on GitHub!

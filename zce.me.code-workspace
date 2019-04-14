@@ -48,7 +48,6 @@
 		]
 	},
 	"settings": {
-		"workbench.startupEditor": "none",
 		"files.exclude": {
 			"node_modules": true
 		},
