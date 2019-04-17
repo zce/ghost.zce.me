@@ -1,5 +1,7 @@
 {
+  "version": 2,
+  "name": "zce.me",
   "builds": [
-    { "src": ".", "use": "@now/node" }
+      { "src": "**/*.js", "use": "@now/node" }
   ]
 }
