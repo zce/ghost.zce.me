@@ -1,15 +1,11 @@
 {
   "version": 2,
   "name": "blog",
+  "builds": [
+    { "src": "index.js", "use": "@now/node-server", "config": { "maxLambdaSize": "30mb" } }
+  ],
   "routes": [
     { "src": "/.*", "dest": "index.js" }
-  ],
-  "builds": [
-    {
-      "src": "*.js",
-      "use": "@now/node-server",
-      "config": { "maxLambdaSize": "20mb" }
-    }
   ],
   "alias": [
     "https://blog.zce.now.sh"
@@ -18,6 +14,6 @@
     "NODE_ENV": "production"
   },
   "regions": [
-    "tpe"
+    "hnd"
   ]
 }
