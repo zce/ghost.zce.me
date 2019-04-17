@@ -1,7 +1,4 @@
 {
   "version": 2,
-  "name": "zce.me",
-  "builds": [
-      { "src": "index.js", "use": "@now/node-server" }
-  ]
+  "name": "zce.me"
 }
