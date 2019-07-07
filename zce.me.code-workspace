@@ -4,22 +4,19 @@
 		// 	"path": "content/themes/creative/assets/scss"
 		// },
 		{
+      "name": "theme",
 			"path": "content/themes/creative"
 		},
-		// {
-		// 	"path": "content/themes/mapache"
-		// },
 		{
       "name": "bootstrap",
 			"path": "content/themes/creative/node_modules/bootstrap/scss"
 		},
-		// {
-		// 	"path": "content"
-		// },
 		{
+      "name": "ghost",
 			"path": "node_modules/ghost/core/server"
 		},
 		{
+      "name": "root",
       "path": "."
 		}
 	],
@@ -35,8 +32,8 @@
         "type": "node",
         "request": "launch",
         "name": "Launch",
-        "program": "${workspaceFolder:zce.me}/index.js",
-        "cwd": "${workspaceFolder:zce.me}"
+        "program": "${workspaceFolder:root}/index.js",
+        "cwd": "${workspaceFolder:root}"
       }
 		],
 		"compounds": []
@@ -48,10 +45,11 @@
 		]
 	},
 	"settings": {
-		"files.exclude": {
-			// "node_modules": true
-		},
     "explorer.openEditors.visible": 0,
+		"files.exclude": {
+      // "node_modules": true,
+      "content/themes/creative": true
+		},
     "terminal.integrated.splitCwd": "workspaceRoot"
   }
 }
